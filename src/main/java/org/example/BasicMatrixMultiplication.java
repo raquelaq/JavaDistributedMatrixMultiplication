@@ -1,12 +1,6 @@
 package org.example;
 
-import org.openjdk.jmh.annotations.*;
 import java.util.Random;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Locale;
 
 public class BasicMatrixMultiplication {
     public static void generateMatrix(int[][] matrix, int min, int max) {
